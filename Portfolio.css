@@ -1,60 +1,151 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.menu {
-	color: black;
-	text-decoration: none;
-	list-style: none;
-	float: right;
-	align-content: center;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	display: inline-block;
-	padding: 20px;
-	font-weight: 800px;	
+.full_page {
+	text-align: center;
+	width: 1200px;
+	margin: auto;
+	border: 10px;
 }
 
-.a {
-	color: black;
+
+.site-nav {
+	width: auto;
+	padding: 0px;
+	margin: 0px;
+	text-decoration-color: black;
 	text-decoration: none;
+}
+
+.menu {
+	text-decoration: none;
+	text-decoration-color: black;
 	list-style: none;
-	
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	display: inline-block;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	text-decoration-color: black;
+	font-weight: 800;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	padding: 50px;
+	margin: 30px;
+}
+
+.me {
+	border-radius: 50%;
+	width: 600px;
+	height: 600px;
+}
+
+
+.subblock-titles {
+	margin-bottom: 0px;
+	text-transform: uppercase;
+	font-family: Helvetica;
+	color:rgba(0,0,0,1.00);
+	font-size: 36px;
+}
+
+ul li {
+	line-height: 30px;
+	letter-spacing: .1em;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";	
+}
+
+.beginning {
+	font-size: 30px;
 }
 
 header {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	padding-left: 20px;
-	padding-right: 10px;
+	padding-left: 10px;
+	padding-right: 0px;
+	width: 100%;
+	padding: 1.5em;
+	letter-spacing: 0.25em;
 }
 
-
 .hero {
-	background-image: url(images/Business_Care_Prototype.jpg);
-	padding: 50px 0px 70px 70px;
-	background-size:cover;
-	width: 600px;
-	height: 300px;
+	background-image: url(images/ws_Pretty_Snowy_Mountains_852x480.jpg);
+	padding: 10px;
+	background-size: cover;
+	width: 1200px;
+	height: auto;
+	align-content: center;
 }
 
 
 .subheading {
-	padding-top: 1000px;
-	padding-bottom: 10px;
-	padding-left: 20px;
-	padding-right: 5px;
 	color: rgba(4,8,119,1.00);
 	text-shadow: 5px;
 	font-weight: 1000px;
-	font-size: 25px;
+	font-size: 35px;
 	font-family: 'Open Sans', sans-serif;
-	padding: 40px 120px 0px 20px;
+	padding: 160px 100px 0px 0px;
 }
 
 
-.get-the-app {
+.what-i-do {
 	background-color: rgba(110,178,210,1.00);
 	font-family: 'Open Sans', sans-serif;
-	padding: 8px 30px;
+	padding: 6px 30px;
 	text-decoration: none;
 	color: rgba(211,211,231,1.00);
+	margin-left: 0px;
+	float: center;
+	
+}
+
+
+body {
+	font-size: 18px;
+	max-width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	align-content: center;
+	background-color: rgba(216,236,243,1.00);
+}
+
+
+h1 {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: rgba(224,196,231,1.00);
+	font-size: 80px;
+	letter-spacing: 0.3em;
+	align-content: center;
+}
+
+
+h2 {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: rgba(11,16,115,1.00);
+	font-size: 50px;
+	margin-left: auto;
+	align-content: center;
+
+}
+
+.intro {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color:rgba(66,7,72,1.00);
+	font-size: 22px;
+	padding: 10px;
+	letter-spacing: .15em;
+	line-height: 3em;
+	word-spacing: .5px;
+	text-indent: 50px;
+}
+
+
+.social-default {
+	width: 100px;
+	height: auto;
+	float: right;
+	display: inline-block;
+	padding: 2em;	
 }
